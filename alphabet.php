@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -10,36 +10,29 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    
     <?php include './header.php'; ?>
 
     <section class="contenido-numeros" id="contenido">
         <h1>The Alphabet</h1>
         <p>To learn the letters of the English alphabet interactively.</p>
         <img src="./Imag/abc.png" alt="Animación del alfabeto">
-        
-        <!-- Tarjeta con PDF -->
+        <p>Learning the English alphabet is essential for children, as it is the basis for developing key language skills. Knowing the letters allows them to understand the structure of the language, improve pronunciation and facilitate reading and writing. Additionally, learning the English alphabet gives them an advantage in communicating globally, given that English is one of the most spoken languages ​​in the world. This early knowledge also fosters confidence in their learning, giving them tools to explore more about the world of languages ​​and expand their educational and professional opportunities in the future.</p>
         <div class="tarjeta-pdf">
-            <div class="tarjeta-contenido" onclick="verPDF()">
-                <h2>PDF del Alfabeto</h2>
-                <p>Haz clic en la tarjeta para ver el PDF.</p>
+            <div class="tarjeta-contenido">
+                <h2>Letter A</h2>
+                <div class="descargar-boton">
+                    <a href="https://drive.google.com/file/d/1z6v_BR7V1yRaiHFO__exP2tYmrucmIZY/preview" download="alfabeto.pdf">
+                        <button class="btn-descargar">Download PDF</button>
+                    </a>
+                </div>
             </div>
-            <div class="descargar-boton">
-                <a href="./archivos/alfabeto.pdf" download>
-                    <button class="btn-descargar">Descargar PDF</button>
-                </a>
+            <div class="pdf-embed">
+                <iframe src="https://drive.google.com/file/d/1z6v_BR7V1yRaiHFO__exP2tYmrucmIZY/preview" width="640" height="480" allow="autoplay"></iframe>
             </div>
         </div>
         
     </section>
 
     <?php include 'footer.php'; ?>
-    
-    <script>
-        // Función para abrir el PDF en una nueva ventana
-        function verPDF() {
-            window.open('./archivos/alfabeto.pdf', '_blank');
-        }
-    </script>
 </body>
 </html>
