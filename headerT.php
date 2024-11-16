@@ -6,7 +6,7 @@
     </div>
     <nav>
         <ul>
-            <li><a href="index.php">Start</a></li>
+            <li><a href="siu.php">Start</a></li>
             <li><a href="MarcoS.php">Strategic framework</a></li>
             <li><a href="Register.php">Register</a></li>
             <li><a href="Login.php">Login</a></li>

@@ -16,7 +16,7 @@
             <ul>
                 <li><a href="Home.php" class="menu-item">Start</a></li>
                 <li><a href="contact.php" class="menu-item">Contact us</a></li>
-                <li><a href="index.php" class="menu-item">Go out</a></li>
+                <li><a href="siu.php" class="menu-item">Go out</a></li>
             </ul>
         </nav>
     </header>
